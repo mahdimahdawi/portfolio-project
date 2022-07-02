@@ -1,56 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio Project
 
-> Description the project.
+> This project content several sections that all of them design via HTML and CSS.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- CSS and HTML
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Needed for amount of space that this project is.
 
 ### Setup
+- To copy this project in you local envirnment frome the code section copy the repo address then go to local envirnment annd by the help og Git Bush run the git clone "repo address".
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- When clone the repo just double click on index.html file and no need to install
 
 
-
-## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@mahdimahdawi](https://github.com/mahdimahdawi)
+- LinkedIn: [Mahdi Mahdawi](https://linkedin.com/feed/)
 
 ## 🤝 Contributing
 
