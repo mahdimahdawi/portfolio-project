@@ -130,3 +130,218 @@ ul {
 }
 
 /* End of First page */
+
+/* Start of Work page */
+
+.work-section {
+  position: relative;
+}
+
+.all-work {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 80px 20px;
+}
+
+.first-work {
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.first-work-content {
+  padding: 0.1rem 0.6rem;
+}
+
+.first-work-title {
+  color: #172b4d;
+}
+
+.first-work-list {
+  display: flex;
+  margin-bottom: 0.8rem;
+  justify-content: space-between;
+  width: clamp(12rem, 10vw, 13rem);
+  font-size: 12px;
+}
+
+.list-1 {
+  font-weight: 700;
+}
+
+.work-description {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.language {
+  display: flex;
+}
+
+.web-lang {
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 5px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.see-btn {
+  font-weight: 600;
+  font-size: 13px;
+  color: #396df2;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #396df2;
+}
+
+/* End of work Page */
+
+/* start of About page */
+
+.about-page {
+  position: relative;
+}
+
+.about-content {
+  padding: 3rem;
+  padding-top: 5rem;
+  background: #fff;
+  border-top-right-radius: 100px 70px;
+  border: 1px solid #dfe1e6;
+}
+
+.about-myself {
+  margin-bottom: 1px;
+}
+
+.myself {
+  width: 250px;
+  height: 101px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.about-myself-text {
+  width: 327px;
+  height: 144px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.connect-btn {
+  width: 117px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-transform: uppercase;
+}
+
+.media-link {
+  display: flex;
+  width: clamp(12rem, 10vh, 15rem);
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.social-link {
+  display: flex;
+  width: clamp(12rem, 10vh, 15rem);
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.resume-btn {
+  width: 138px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #396df2;
+  padding: 13px 30px;
+  border-radius: 10px;
+  border: 1px solid #396df2;
+}
+
+.programing-skill {
+  padding: 1px, 1px;
+}
+
+.programing-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1px;
+  padding-right: 1px;
+}
+
+.language-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: -50px;
+  line-height: 24px;
+  color: #000;
+}
+
+.line {
+  display: flex;
+  position: absolute;
+  left: 45px;
+  margin: 3px;
+}
+
+.skill-list {
+  display: flex;
+  width: 303px;
+  height: 50px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-left: -50px;
+}
+
+.skill-name {
+  position: relative;
+  left: 15px;
+  right: 12px;
+  top: calc(50% - 24px / 2 - 12px);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
+.Framework {
+  padding: 1px, 1px;
+}
