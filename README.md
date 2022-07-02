@@ -10,6 +10,19 @@
 - CSS and HTML
 
 
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- Needed for amount of space that this project is.
+
+### Setup
+- To copy this project in you local envirnment frome the code section copy the repo address then go to local envirnment annd by the help og Git Bush run the git clone "repo address".
+
+### Install
+- When clone the repo just double click on index.html file and no need to install
+
+
+
 👤 **Author1**
 
 - GitHub: [@mahdimahdawi](https://github.com/mahdimahdawi)

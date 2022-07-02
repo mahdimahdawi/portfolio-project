@@ -60,7 +60,7 @@ ul {
 .page-1 {
   position: relative;
   background-color: #fff;
-  height: 500px;
+  height: 600px;
   border-bottom-left-radius: 100px 70px;
   overflow-x: hidden;
   background-image:
@@ -82,7 +82,7 @@ ul {
     left 250px top 1px,
     left 300px top 150px,
     left 300px top 360px,
-    left 80px top 430px,
+    left 80px top 480px,
     left 270px top 450px;
   background-size: auto, auto, 125px 125px, auto, auto, 50px 50px;
 }
@@ -146,7 +146,7 @@ ul {
 
 .first-work {
   display: flex;
-  height: 500px;
+  height: 550px;
   flex-direction: column;
   align-items: center;
   padding: 16px;
@@ -154,6 +154,11 @@ ul {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+}
+
+.first-work-image {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .first-work-content {
@@ -166,7 +171,9 @@ ul {
 
 .first-work-list {
   display: flex;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.8px;
+  margin-left: -35px;
+  margin-top: -10px;
   justify-content: space-between;
   width: clamp(12rem, 10vw, 13rem);
   font-size: 12px;
@@ -177,12 +184,17 @@ ul {
 }
 
 .work-description {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
   font-size: 15px;
-  font-weight: 500;
+  line-height: 24px;
+  color: #344563;
 }
 
 .language {
   display: flex;
+  margin-left: -40px;
 }
 
 .web-lang {
@@ -252,8 +264,8 @@ ul {
 }
 
 .connect-btn {
-  width: 117px;
-  height: 24px;
+  width: 150px;
+  height: auto;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -266,15 +278,18 @@ ul {
 .media-link {
   display: flex;
   width: clamp(12rem, 10vh, 15rem);
+  margin-top: -20px;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
 .social-link {
   display: flex;
-  width: clamp(12rem, 10vh, 15rem);
+  width: clamp(20rem, 130vh, 200rem);
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
+  margin-left: -30px;
+  margin-top: 50px;
 }
 
 .resume-btn {
