@@ -194,7 +194,7 @@ ul {
 
 .language {
   display: flex;
-  margin-left: -40px;
+  float: left;
 }
 
 .web-lang {
@@ -209,7 +209,7 @@ ul {
 }
 
 .see-btn {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 13px;
   color: #396df2;
   text-align: center;
@@ -217,6 +217,7 @@ ul {
   padding: 10px;
   border-radius: 8px;
   border: 1px solid #396df2;
+  margin-left: 30px;
 }
 
 /* End of work Page */
@@ -334,6 +335,7 @@ ul {
 
 .skill-list {
   display: flex;
+  float: right;
   width: 303px;
   height: 50px;
   background: #f7f7f9;
