@@ -194,7 +194,7 @@ ul {
 
 .language {
   display: flex;
-  margin-left: -40px;
+  float: left;
 }
 
 .web-lang {
@@ -209,7 +209,10 @@ ul {
 }
 
 .see-btn {
-  font-weight: 600;
+  display: flex;
+  float: left;
+  margin-top: -20px;
+  font-weight: 500;
   font-size: 13px;
   color: #396df2;
   text-align: center;
@@ -360,3 +363,147 @@ ul {
 .Framework {
   padding: 1px, 1px;
 }
+
+.form-page {
+  position: relative;
+}
+
+.form-content {
+  padding: 3rem;
+  padding-top: 5rem;
+  background: #6070FF;
+  border-top-left-radius: 100px 70px;
+  border: 1px solid #dfe1e6;
+  margin: 10px;
+}
+
+.contact-me {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.paragraph {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  padding: 20px;
+}
+
+.input-field {
+  display: block;      
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  align-items: center;
+  height: 40px;
+  width: 300px;
+  padding: 1px 1px 1px 10px;
+  margin: 15px;
+}
+
+.message {
+  display: block;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+.contact-me {
+  background: #6070ff url(images/contact-form-bg.svg);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  border-top-left-radius: 100px;
+  color: #EBEBFF;
+  padding: 24px;
+}
+
+.contact-me-text {
+  margin-top: 103px;
+  color: #EBEBFF;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.contact-me-brief {
+  color: #EBEBFF;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 40px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.input-field-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px;
+}
+
+input,
+textarea{
+  color: #B3BAC5;
+  background-color: #fff;
+}
+
+.input-field {
+  align-items: center;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+.write-message {
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
+  padding: 15px 38px 0px 16px;
+}
+
+.get-in-touch button {
+  color:#6070FF;
+  font-weight: 500;
+  font-size: 17px;
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 22px;
+  margin-left: -200px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.get-in-touch:hover button {
+  color: #fff;
+  background-color: #7f8cff;
+}
+
+.get-in-touch:active button {
+  color: #fff;
+  background-color: #3347ff;
+}
+
