@@ -365,39 +365,36 @@ ul {
 }
 
 .contact-me {
-  font-family: 'Poppins' sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.input-field {
-  display: block;      
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  align-items: center;
-  height: 40px;
-  width: 300px;
-  padding: 1px 1px 1px 10px;
-  margin: 15px;
-}
-
-.contact-me {
+  display: flex;
+  flex-direction: column;
   background-image: url("/image/back-shap.png");
   background-position: left 245px top 15px;
   background-repeat: no-repeat;
   background-color: #6070ff;
-  display: flex;
-  flex-direction: column;
+  font-style: normal;
   align-items: center;
+  text-align: center;
   margin-top: 50px;
   border-top-left-radius: 100px;
-  color: #ebebff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.input-field {
+  display: block;
+
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin: 15px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  height: 24px;
+  width: 350px;
+  padding: 10px;
 }
 
 .contact-me-text {
@@ -421,18 +418,6 @@ ul {
   text-align: center;
   margin-top: -10px;
   margin-bottom: 50px;
-}
-
-.input-field {
-  align-items: center;
-  border-radius: 8px;
-  font-weight: 400;
-  background: #fff;
-  font-size: 17px;
-  line-height: 24px;
-  height: 24px;
-  width: 350px;
-  padding: 10px;
 }
 
 .write-message {
