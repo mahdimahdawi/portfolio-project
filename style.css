@@ -460,6 +460,12 @@ ul {
   margin: 40px;
 }
 
+input,
+textarea{
+  color: #B3BAC5;
+  background-color: #fff;
+}
+
 .input-field {
   align-items: center;
   border-radius: 8px;
@@ -479,10 +485,10 @@ ul {
 }
 
 .get-in-touch button {
-  color: #6070FF;
+  color:#6070FF;
   font-weight: 500;
   font-size: 17px;
-  background: #fff;
+  background-color: #fff;
   padding: 12px;
   border: 1px solid #6070ff;
   border-radius: 8px;
