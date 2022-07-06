@@ -383,7 +383,6 @@ ul {
 
 .input-field {
   display: block;
-
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -428,7 +427,7 @@ ul {
 
 .get-in-touch button {
   color:#6070ff;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 17px;
   background-color: #fff;
   padding: 12px;
