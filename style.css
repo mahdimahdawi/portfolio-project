@@ -367,8 +367,8 @@ ul {
 .contact-me {
   display: flex;
   flex-direction: column;
-  background-image: url("/image/back-shap.png");
-  background-position: left 245px top 15px;
+  background-image: url("/image/back-shap.png"), url("/image/Shape.png");
+  background-position: left 200px top 20px, left 150px top 775px;
   background-repeat: no-repeat;
   background-color: #6070ff;
   font-style: normal;
@@ -386,13 +386,14 @@ ul {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin: 15px;
+  margin: 10px;
   align-items: center;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
   height: 24px;
-  width: 350px;
+  width: 300px;
+  margin-left: 20px;
   padding: 10px;
 }
 
@@ -423,6 +424,8 @@ ul {
   border-radius: 8px;
   font-weight: 400;
   font-size: 17px;
+  padding: 10px;
+  margin-left: 8px;
 }
 
 .get-in-touch button {
@@ -434,8 +437,8 @@ ul {
   border: 1px solid #6070ff;
   border-radius: 8px;
   margin-top: 22px;
-  margin-left: -230px;
-  margin-bottom: 30px;
+  margin-left: -170px;
+  margin-bottom: 50px;
   font-family: 'Poppins', sans-serif;
 }
 
