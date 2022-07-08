@@ -643,73 +643,73 @@ ul {
   .desktop-connect {
     margin: -150px 50px 10px -30px;
   }
-  
+
   .desktop-media {
     margin: 80px 10px 30px 55px;
   }
 
   .desktop-resume {
-      margin-left: 70px;
-    }
+        margin-left: 70px;
+      }
 
     .desktop-skills {
         margin: 80px 10px 10px 150px;
-    }
+      }
 
     .arrow {
-      margin-left: 250px;
-    }
+       margin-left: 250px;
+      }
 
     .not-show {
         display: none;
-    }
+      }
 
     .pro {
-      display: flex;
-      margin: 150px 10px 10px 50px;
-    }
+        display: flex;
+        margin: 150px 10px 10px 50px;
+      }
     
     .pro-basic {
-      border-radius: 8px;
-      background: #f7f7f9;
-      height: 90px;
-      margin: 5px;
-      width: 100px;
-    } 
-
+        border-radius: 8px;
+        background: #f7f7f9;
+        height: 90px;
+        margin: 5px;
+        width: 100px;
+     }
+    
     .pa {
-      font-family: 'Poppins',sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 20px;
-      align-items: center;
-      color: #253858
-    }
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        align-items: center;
+        color: #253858
+      }
 
     .lal {
-      margin-left: -470px;
-    }
+        margin-left: -470px;
+      }
 
     .frame-margin {
-      margin: 150px 10px 10px -50px;
-    }
+        margin: 150px 10px 10px -50px;
+      }
 
     .skill-margin {
-      margin-left: -520px;
-    }
+        margin-left: -520px;
+      }
 
     .arrow-margin {
-      margin-left: 550px;
-    }
+        margin-left: 550px;
+      }
 
     .desktop-form {
-      background-image: url(/image/form-back.png);
-      margin: 1px;
-      height: 850px;
-    }
+       background-image: url(/image/form-back.png);
+        margin: 1px;
+        height: 850px;
+      }
 
     .desktop-get-btn {
-      margin-left: 180px;
-    }
+       margin-left: 180px;
+      }
 }
