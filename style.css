@@ -559,7 +559,7 @@ ul {
     border-radius: 8px;
     border: 1px solid #396df2;
   }
-
+  
   .nave-toggle {
     display: none;
   }
@@ -649,11 +649,11 @@ ul {
   }
 
   .desktop-resume {
-        margin-left: 70px;
+         margin-left: 70px;
       }
 
     .desktop-skills {
-        margin: 80px 10px 10px 150px;
+          margin: 80px 10px 10px 150px;
       }
 
     .arrow {
