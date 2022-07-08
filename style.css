@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 a {
@@ -29,6 +29,7 @@ ul {
 .desktop {
   display: none;
 }
+
 .navbar {
   position: relative;
   top: 10;
@@ -465,14 +466,13 @@ ul {
 }
 
 @media (min-width: 600px) {
-
   .desktop-nav {
     background-color: #fff;
     margin-bottom: -30px;
     margin-left: -10px;
   }
 
-  .logo-place{
+  .logo-place {
     position: relative;
     left: 30px;
   }
@@ -537,7 +537,7 @@ ul {
     padding: 10px 10px -20px 10px;
   }
 
-  .desktop-language{
+  .desktop-language {
     display: flex;
     padding: 15px;
   }
@@ -563,6 +563,7 @@ ul {
   .nave-toggle {
     display: none;
   }
+
   .menu {
     display: flex;
     margin-right: 180px;
@@ -580,15 +581,13 @@ ul {
     line-height: 20px;
     margin-left: 30px;
     color: #344563;
-
   }
 
   .page-1 {
     background-image: url(/image/desktop.png);
     background-position: right -30px;
     height: 110vh;
-    background-position-y: 0rem; 
-    border-bottom-left-radius: 70px;
+    background-position-y: 0.1rem;
     margin-top: 1rem;
     margin-bottom: 30px;
     border-bottom-left-radius: 100px;
@@ -650,11 +649,11 @@ ul {
   }
 
   .desktop-resume {
-    margin-left: 70px;
+      margin-left: 70px;
     }
 
     .desktop-skills {
-      margin: 80px 10px 10px 150px;
+        margin: 80px 10px 10px 150px;
     }
 
     .arrow {
@@ -662,7 +661,7 @@ ul {
     }
 
     .not-show {
-      display: none;
+        display: none;
     }
 
     .pro {
