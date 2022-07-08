@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+html,
+body,
 ::after,
 ::before {
   box-sizing: border-box;
@@ -31,14 +33,12 @@ ul {
 }
 
 .navbar {
-  position: relative;
-  top: 10;
-  left: 10px;
   width: 100%;
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
 }
 
 .logo {
@@ -51,6 +51,7 @@ ul {
   align-items: center;
   text-align: center;
   color: #6070ff;
+  margin-left: 10px;
 }
 
 .menu {
@@ -89,9 +90,9 @@ ul {
     top -10px right -50px,
     left 250px top 1px,
     left 300px top 150px,
-    left 300px top 360px,
-    left 80px top 480px,
-    left 270px top 450px;
+    left 330px top 400px,
+    left 80px top 530px,
+    left 270px top 520px;
   background-size: auto, auto, 125px 125px, auto, auto, 50px 50px;
 }
 
@@ -107,6 +108,8 @@ ul {
   align-items: center;
   color: #172b4d;
   padding-top: 30px;
+  margin-left: 30px;
+
 }
 
 .p1-description {
@@ -115,7 +118,9 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  width: 350px;
   color: #344563;
+  margin-left: 30px;
 }
 
 .p1-connect {
@@ -284,6 +289,7 @@ ul {
   line-height: 24px;
   color: #7f8cff;
   text-transform: uppercase;
+  margin-left: 30px;
 }
 
 .media-link {
@@ -465,11 +471,15 @@ ul {
   background-color: #3347ff;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .desktop-nav {
     background-color: #fff;
     margin-bottom: -30px;
     margin-left: -10px;
+  }
+
+  .desktop-header {
+    margin-right: -10px;
   }
 
   .logo-place {
@@ -487,6 +497,7 @@ ul {
     background: #fff;
     margin: 150px;
     border: 1px solid #dfe1e6;
+    width: 86%;
   }
 
   .content {
