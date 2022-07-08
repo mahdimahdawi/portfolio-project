@@ -657,7 +657,7 @@ ul {
   }
 
   .arrow {
-     margin-left: 250px;
+    margin-left: 250px;
   }
 
   .not-show {
@@ -668,7 +668,7 @@ ul {
     display: flex;
     margin: 150px 10px 10px 50px;
   }
-    
+
   .pro-basic {
     border-radius: 8px;
     background: #f7f7f9;
@@ -676,7 +676,7 @@ ul {
     margin: 5px;
     width: 100px;
   }
-    
+
   .pa {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -684,7 +684,7 @@ ul {
     font-size: 15px;
     line-height: 20px;
     align-items: center;
-    color: #253858
+    color: #253858;
   }
 
   .lal {
