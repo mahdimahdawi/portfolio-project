@@ -69,7 +69,7 @@ ul {
 .page-1 {
   position: relative;
   background-color: #fff;
-  height: 600px;
+  height: 100vh;
   border-bottom-left-radius: 100px 70px;
   overflow-x: hidden;
   background-image:
