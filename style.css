@@ -320,7 +320,7 @@ ul {
 
 .social-link {
   display: flex;
-  width: clamp(20rem, 130vh, 200rem);
+  width: clamp(20rem, 130vw, 200rem);
   justify-content: space-between;
   margin-bottom: 15px;
   margin-left: -30px;
@@ -467,7 +467,7 @@ ul {
 
 .get-in-touch button {
   color: #6070ff;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 17px;
   background-color: #fff;
   padding: 12px;
@@ -507,7 +507,7 @@ ul {
 
 .nav-branding {
   font-size: 1.5rem;
-  color: #6070FF;
+  color: #6070ff;
   transition: 0.2s;
 }
 
@@ -530,34 +530,35 @@ ul {
   margin: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #6070FF;
+  background-color: #6070ff;
 }
 
 .bar.active {
   background-color: white;
 }
 
-.hambarger.active .bar:nth-child(2){
+.hambarger.active .bar:nth-child(2) {
   opacity: 0;
 }
 
-.hambarger.active .bar:nth-child(1){
+.hambarger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
 
-.hambarger.active .bar:nth-child(3){
+.hambarger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
 }
 
-
 .header {
+  position: relative;
   background-color: #fff;
   z-index: 10;
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
   .nav-menu {
-    position: fixed;
+    position: absolute;
     left: -100%;
     top: 60px;
     width: 100%;
@@ -568,8 +569,12 @@ ul {
     z-index: 1;
   }
 
+  .blur-bg {
+    filter: blur(2.2px);
+  }
+
   .header.active {
-    background-color: #6070FF;
+    background-color: #6070ff;
     transition: 0.5s;
   }
 
@@ -591,7 +596,6 @@ ul {
   .nav-menu.active {
     left: 0;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -599,7 +603,7 @@ ul {
     display: none;
     cursor: pointer;
   }
-  
+
   .nav-menu {
     display: flex;
     justify-content: space-between;

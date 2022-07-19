@@ -1,1 +1,0 @@
-document.getElementsByClassName("demo").innerHTM ="Hi";
