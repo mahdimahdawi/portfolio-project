@@ -29,14 +29,14 @@ ul {
   display: none;
 }
 
-.navbar {
+/* .navbar {
   width: 100%;
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-}
+} */
 
 .logo {
   font-family: 'Poppins', sans-serif;
@@ -58,6 +58,7 @@ ul {
 .nave-toggle {
   margin-right: 20px;
 }
+
 
 /* Backgound images */
 
@@ -496,7 +497,118 @@ ul {
   display: none;
 }
 
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-branding {
+  font-size: 1.5rem;
+  color: #6070FF;
+  transition: 0.2s;
+}
+
+.nav-link {
+  transition: 0.6s ease;
+}
+
+.nav-link:hover {
+  color: dodgerblue;
+}
+
+.hambarger {
+  display: block;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070FF;
+}
+
+.bar.active {
+  background-color: white;
+}
+
+.hambarger.active .bar:nth-child(2){
+  opacity: 0;
+}
+
+.hambarger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hambarger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+
+.header {
+  background-color: #fff;
+  z-index: 10;
+}
+
+@media(max-width: 768px){
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: #6070ff;
+    opacity: 0.95;
+    transition: 0.5s;
+    z-index: 1;
+  }
+
+  .header.active {
+    background-color: #6070FF;
+    transition: 0.5s;
+  }
+
+  .nav-item {
+    margin: 30px 0;
+    color: white;
+  }
+
+  .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 30px;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+}
+
 @media (min-width: 768px) {
+  .hambarger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    margin-right: 100px;
+  }
+
   .desktop-nav {
     background-color: #fff;
     margin-bottom: -30px;
@@ -622,7 +734,7 @@ ul {
     height: 110vh;
     background-position-y: 0.1rem;
     background-size: 1200px 600px;
-    margin-top: 1rem;
+    margin-top: 1px;
     margin-bottom: 30px;
     border-bottom-left-radius: 100px;
     background-color: #fff;
