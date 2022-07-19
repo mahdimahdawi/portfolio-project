@@ -9,6 +9,9 @@
 
 - CSS and HTML
 
+## Live Demo (if available)
+- Github pages: [Mahdi-portfolio] https://mahdimahdawi.github.io
+
 
 To get a local copy up and running follow these simple example steps.
 
@@ -27,7 +30,6 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@mahdimahdawi](https://github.com/mahdimahdawi)
 - LinkedIn: [Mahdi Mahdawi](https://linkedin.com/feed/)
-- Online link: https://mahdimahdawi.github.io
 
 ## 🤝 Contributing
 
