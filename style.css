@@ -277,7 +277,7 @@ ul {
 
 .media-link {
   display: flex;
-  width: 70%;
+  width: 100%;
   margin: -30px 1px 5px 25px;
   justify-content: space-between;
   margin-bottom: 1rem;
@@ -285,7 +285,7 @@ ul {
 
 .media-link1 {
   display: flex;
-  width: 45%;
+  width: 80%;
   margin: -30px 1px 5px 25px;
   justify-content: space-between;
   margin-bottom: 1rem;
@@ -578,6 +578,10 @@ ul {
     cursor: pointer;
   }
 
+  .media-desktop {
+    width: 40%;
+  }
+
   .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -591,17 +595,24 @@ ul {
     display: none;
   }
 
+  .desktop-version {
+    padding: 50px;
+  }
+
   .desktop {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    padding: 20px;
     border-radius: 24px;
     background: #fff;
-    margin: 100px;
     border: 1px solid #dfe1e6;
-    width: 86%;
+    width: 100%;
+    margin-bottom: 50px;
   }
 
   .content {
-    margin: 50px;
+    width: 100%;
   }
 
   .title {
@@ -614,8 +625,10 @@ ul {
 
   .desktop-list {
     display: flex;
-    margin-bottom: 0.8px;
+    flex-wrap: wrap;
+    margin-top: 15px;
     font-size: 12px;
+    width: 70%;
   }
 
   .list1 {
@@ -643,11 +656,14 @@ ul {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+    width: 100%;
     padding: 10px 10px -20px 10px;
+    margin-top: 30px;
   }
 
   .desktop-language {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 15px;
   }
 
@@ -712,10 +728,6 @@ ul {
     position: relative;
     left: 20%;
     top: 110px;
-  }
-
-  .card-image {
-    margin: 20px;
   }
 
   .desktop-about {
