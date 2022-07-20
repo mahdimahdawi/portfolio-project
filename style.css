@@ -530,6 +530,52 @@ ul {
   z-index: 10;
 }
 
+.modal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background-color: #fff;
+  border-radius: 30px;
+  width: 100%;
+  height: 100vh;
+  max-width: 80%;
+  padding: 30px;
+  z-index: 100;
+  backdrop-filter: blur(0.31rem);
+  margin: 30px;
+  overflow-y: scroll;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+.desktop-version.active {
+  filter: blur(0.3rem);
+  transition: 0.3s;
+}
+
+.modal.modal-image {
+  width: 100%;
+}
+
+.modal-image {
+  width: 100%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: space-between;
+}
+
 @media (max-width: 768px) {
   .nav-menu {
     position: absolute;
