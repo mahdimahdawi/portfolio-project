@@ -2,11 +2,11 @@ const projects = [
   {
     title: 'Tonic',
     description:
-     'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+     ' ',
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     modal_image: './image/desk-image1.png',
-    lang_list: ['javascript', 'html', 'css'],
+    lang_list: ['javascript', 'html', 'css', 'Github', 'Ruby', 'Bootsrap'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
     source: '',
     live_demo: '',
@@ -14,11 +14,11 @@ const projects = [
   {
     title: 'Multi-post Stories',
     description:
-     'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+     ' ',
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     modal_image: './image/desk-image2.png',
-    lang_list: ['javascript', 'html', 'css'],
+    lang_list: ['javascript', 'html', 'css', 'Github', 'Ruby', 'Bootsrap'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
     source: '',
     live_demo: '',
@@ -26,11 +26,11 @@ const projects = [
   {
     title: 'Facebook',
     description:
-     'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+     ' ',
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     modal_image: './image/desktop-work.png',
-    lang_list: ['javascript', 'html', 'css'],
+    lang_list: ['javascript', 'html', 'css', 'Github', 'Ruby', 'Bootsrap'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
     source: '',
     live_demo: '',
@@ -38,68 +38,65 @@ const projects = [
   {
     title: 'Uber Navigation',
     description:
-     'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+     ' ',
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     modal_image: './image/avaibality.png',
-    lang_list: ['javascript', 'html', 'css'],
+    lang_list: ['javascript', 'html', 'css', 'Github', 'Ruby', 'Bootsrap'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
     source: '',
     live_demo: '',
   },
-]
+];
 
-  function modalList(projects,key, list){
-    for(let value in projects[key].modal_list){
-      if(value){
-        list = `<li>${projects[key].modal_list[value]}</li>`
-      }
-    };
-    return list;
+const modalList = (projects, key, list = '') => {
+  for (const value in projects[key].modal_list) {
+    if (value) {
+      list += `<li>${projects[key].modal_list[value]}</li>`;
+    }
   }
-
-  function modaLanguage(projects,key, list){
-    for(let value in projects[key].lang_list){
-      if(value){
-        list = `<li>${projects[key].lang_list[value]}</li>`
-      }
-    };
-    return list;
+  return list;
+};
+const modaLanguage = (projects, key, list = '') => {
+  for (const value in projects[key].lang_list) {
+    if (value) {
+      list += `<li>${projects[key].lang_list[value]}</li>`;
+    }
   }
+  return list;
+};
 
-
-function showModal(project){
-  const detials = projects[project]
-  document.querySelector('.modal-title').innerHTML = detials.title
-  document.querySelector('.modal-list').innerHTML = modalList(projects,project)
-  document.querySelector('.modal-image').src = detials.modal_image
-  document.querySelector('.modal-description').innerHTML = detials.description
-  document.querySelector('.modal-detial').innerHTML = detials.details
-  document.querySelector('.modal-language').innerHTML = modaLanguage(projects, project)
-  document.querySelector('.modal-github').href = detials.source
-  document.querySelector('.modal-live').href = detials.live_demo
+function showModal(project) {
+  const detials = projects[project];
+  document.querySelector('.modal-title').innerHTML = detials.title;
+  document.querySelector('.modal-list').innerHTML = modalList(projects, project);
+  document.querySelector('.modal-image').src = detials.modal_image;
+  document.querySelector('.modal-description').innerHTML = detials.description;
+  document.querySelector('.modal-detial').innerHTML = detials.details;
+  document.querySelector('.modal-language').innerHTML = modaLanguage(projects, project);
+  document.querySelector('.modal-github').href = detials.source;
+  document.querySelector('.modal-live').href = detials.live_demo;
 }
 
+const modalClass = document.querySelector('.modal');
+const bodyScoll = document.querySelector('body');
+const bgBlur = document.querySelector('.desktop-version');
 
-const modalClass = document.querySelector(".modal")
-const bodyScoll = document.querySelector("body")
-const bgBlur = document.querySelector(".desktop-version")
-
-const openModal = document.querySelectorAll(".see-project")
-openModal.forEach(button =>{
-  button.addEventListener("click", (event) =>{
+const openModal = document.querySelectorAll('.see-project');
+openModal.forEach((button) => {
+  button.addEventListener('click', (event) => {
     showModal(event.target.dataset.work);
-    modalClass.classList.add("active")
-    bodyScoll.classList.toggle("active")
-    bgBlur.classList.toggle("active")
-  },false)
-})
+    modalClass.classList.add('active');
+    bodyScoll.classList.toggle('active');
+    bgBlur.classList.toggle('active');
+  }, false);
+});
 
-const closeModal = document.querySelectorAll(".close-modal-button")
-closeModal.forEach(button => {
-  button.addEventListener("click", ()=>{
-    modalClass.classList.remove("active")
-    bodyScoll.classList.remove("active")
-    bgBlur.classList.remove("active")
-  })
-})
+const closeModal = document.querySelectorAll('.close-modal-button');
+closeModal.forEach((button) => {
+  button.addEventListener('click', () => {
+    modalClass.classList.remove('active');
+    bodyScoll.classList.remove('active');
+    bgBlur.classList.remove('active');
+  });
+});
