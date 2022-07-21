@@ -1,4 +1,3 @@
-
 const projects = [
   {
     title: 'Tonic',
