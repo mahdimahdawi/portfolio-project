@@ -8,8 +8,8 @@ const projects = [
     modal_image: './image/desk-image1.png',
     lang_list: ['javascript', 'html', 'css', 'Github', 'Ruby', 'Bootsrap'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
-    source: '',
-    live_demo: '',
+    source: 'https://mahdimahdawi.github.io',
+    live_demo: 'https://github.com/mahdimahdawi/portfolio-project/tree/mobile-toggle',
   },
   {
     title: 'Multi-post Stories',
@@ -20,8 +20,8 @@ const projects = [
     modal_image: './image/desk-image2.png',
     lang_list: ['javascript', 'html', 'css', 'Github', 'Ruby', 'Bootsrap'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
-    source: '',
-    live_demo: '',
+    source: 'https://mahdimahdawi.github.io',
+    live_demo: 'https://github.com/mahdimahdawi/portfolio-project/tree/mobile-toggle',
   },
   {
     title: 'Facebook',
@@ -32,8 +32,8 @@ const projects = [
     modal_image: './image/desktop-work.png',
     lang_list: ['javascript', 'html', 'css', 'Github', 'Ruby', 'Bootsrap'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
-    source: '',
-    live_demo: '',
+    source: 'https://mahdimahdawi.github.io',
+    live_demo: 'https://github.com/mahdimahdawi/portfolio-project/tree/mobile-toggle',
   },
   {
     title: 'Uber Navigation',
@@ -44,11 +44,11 @@ const projects = [
     modal_image: './image/avaibality.png',
     lang_list: ['javascript', 'html', 'css', 'Github', 'Ruby', 'Bootsrap'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
-    source: '',
-    live_demo: '',
+    source: 'https://mahdimahdawi.github.io',
+    live_demo: 'https://github.com/mahdimahdawi/portfolio-project/tree/mobile-toggle',
   },
   {
-    title: 'Uber Navigation',
+    title: 'Tonic',
     description:
      ' ',
     details:
@@ -56,11 +56,11 @@ const projects = [
     modal_image: './image/work-1.png',
     lang_list: ['javascript', 'html', 'css'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
-    source: '',
-    live_demo: '',
+    source: 'https://mahdimahdawi.github.io',
+    live_demo: 'https://github.com/mahdimahdawi/portfolio-project/tree/mobile-toggle',
   },
   {
-    title: 'Uber Navigation',
+    title: 'Multi-post stories',
     description:
      ' ',
     details:
@@ -68,11 +68,11 @@ const projects = [
     modal_image: './image/project2.png',
     lang_list: ['javascript', 'html', 'css'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
-    source: '',
-    live_demo: '',
+    source: 'https://mahdimahdawi.github.io',
+    live_demo: 'https://github.com/mahdimahdawi/portfolio-project/tree/mobile-toggle',
   },
   {
-    title: 'Uber Navigation',
+    title: 'Tonic',
     description:
      ' ',
     details:
@@ -80,11 +80,11 @@ const projects = [
     modal_image: './image/work-3.png',
     lang_list: ['javascript', 'html', 'css'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
-    source: '',
-    live_demo: '',
+    source: 'https://mahdimahdawi.github.io',
+    live_demo: 'https://github.com/mahdimahdawi/portfolio-project/tree/mobile-toggle',
   },
   {
-    title: 'Uber Navigation',
+    title: 'Multi-post stories',
     description:
      ' ',
     details:
@@ -92,8 +92,8 @@ const projects = [
     modal_image: './image/work-4.png',
     lang_list: ['javascript', 'html', 'css'],
     modal_list: ['CANOPY', 'Back End Dev', '2015'],
-    source: '',
-    live_demo: '',
+    source: 'https://mahdimahdawi.github.io',
+    live_demo: 'https://github.com/mahdimahdawi/portfolio-project/tree/mobile-toggle',
   },
 ];
 

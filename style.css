@@ -705,12 +705,12 @@ hr {
   }
 
   .image-container {
-    height: 40vh;
+    height: 30vh;
   }
 
   .modal-image {
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     align-self: center;
   }
 

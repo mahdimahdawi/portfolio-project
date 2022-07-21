@@ -11,6 +11,7 @@
     },
     "extends": ["airbnb-base"],
     "rules": {
+      "'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix']",
       "no-shadow": "off",
       "no-param-reassign": "off",
       "eol-last": "off",
@@ -23,3 +24,4 @@
       "build/"
     ]
   }
+  
