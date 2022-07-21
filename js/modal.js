@@ -98,6 +98,7 @@ const projects = [
 ];
 
 const modalList = (projects, key, list = '') => {
+  /* eslint-disable no-restricted-syntax */
   for (const value in projects[key].modal_list) {
     if (value) {
       list += `<li>${projects[key].modal_list[value]}</li>`;
@@ -106,6 +107,7 @@ const modalList = (projects, key, list = '') => {
   return list;
 };
 const modaLanguage = (projects, key, list = '') => {
+  /* eslint-disable no-restricted-syntax */
   for (const value in projects[key].lang_list) {
     if (value) {
       list += `<li>${projects[key].lang_list[value]}</li>`;
