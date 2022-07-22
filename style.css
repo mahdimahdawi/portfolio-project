@@ -689,7 +689,7 @@ hr {
 }
 
 .alert {
-  color: red;
+  color: rgb(234, 26, 26);
   font-size: medium;
   animation-duration: 3s;
   animation-name: slidein;
