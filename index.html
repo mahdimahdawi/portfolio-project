@@ -403,10 +403,11 @@
                     I'd<br> love to help with it.
                 </p>
                 <div class="input-field-box">
-                    <form action="https://formspree.io/f/xbjwvood" method="post">
+                    <form id="contact-form" action="https://formspree.io/f/xbjwvood" method="post">
+                        <p class="alert"></p>
                         <input class="input-field desktop-input" type="text" name="name" required
                             placeholder="Enter Your Name" maxlength="30">
-                        <input class="input-field desktop-input" type="email" name="email" required
+                        <input class="input-field desktop-input" type="email" id="email" name="email" required
                             placeholder="Enter Your Email">
                         <textarea name="message" class="write-message desktop-input" cols="29" rows="8"
                             placeholder="Write Your message here" required maxlength="500"></textarea>
@@ -481,6 +482,7 @@
     </main>
     <script src="./js/myScript.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/form-validation.js"></script>
 </body>
 
 </html>
