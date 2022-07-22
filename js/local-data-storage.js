@@ -1,24 +1,24 @@
-function formData(){
-  const jsObj = JSON.parse(localStorage.getItem('jsObj'));
-  jsObj.name = document.querySelector('#name').value;
-  jsObj.email = document.querySelector('#email').value;
-  jsObj.message = document.querySelector('#message').value;
-  localStorage.setItem('jsObj', JSON.stringify(jsObj));
+function formDataStorageObj(){
+  const userData = JSON.parse(localStorage.getItem('userData'));
+  userData.name = document.querySelector('#name').value;
+  userData.email = document.querySelector('#email').value;
+  userData.message = document.querySelector('#message').value;
+  localStorage.setItem('userData', JSON.stringify(userData));
 }
 
 function checkStorage(){
-  if (!localStorage.getItem('jsObj')) {
-    const jsObj = {
+  if (!localStorage.getItem('userData')) {
+    const userData = {
       name : '',
       email : '',
       message : '',
     };
-    localStorage.setItem('jsObj', JSON.stringify(jsObj));
+    localStorage.setItem('userData', JSON.stringify(userData));
   } else {
-    const jsObj = JSON.parse(localStorage.getItem('jsObj'));
-    document.querySelector('#name').value = jsObj.name;
-    document.querySelector('#email').value = jsObj.email;
-    document.querySelector('#message').value = jsObj.message;
+    const userData = JSON.parse(localStorage.getItem('userData'));
+    document.querySelector('#name').value = userData.name;
+    document.querySelector('#email').value = userData.email;
+    document.querySelector('#message').value = userData.message;
   }
 }
 
@@ -26,6 +26,6 @@ window.onload = () => {
   checkStorage();
 }
 
-document.querySelector('#name').addEventListener('keydown', formData);
-document.querySelector('#email').addEventListener('keydown', formData);
-document.querySelector('#message').addEventListener('keydown', formData);
+document.querySelector('#name').addEventListener('keydown', formDataStorageObj);
+document.querySelector('#email').addEventListener('keydown', formDataStorageObj);
+document.querySelector('#message').addEventListener('keydown', formDataStorageObj);
