@@ -1,4 +1,4 @@
-function formDataStorageObj(){
+function formDataStorageObj() {
   const userData = JSON.parse(localStorage.getItem('userData'));
   userData.name = document.querySelector('#name').value;
   userData.email = document.querySelector('#email').value;
@@ -6,12 +6,12 @@ function formDataStorageObj(){
   localStorage.setItem('userData', JSON.stringify(userData));
 }
 
-function checkStorage(){
+function checkStorage() {
   if (!localStorage.getItem('userData')) {
     const userData = {
-      name : '',
-      email : '',
-      message : '',
+      name: '',
+      email: '',
+      message: '',
     };
     localStorage.setItem('userData', JSON.stringify(userData));
   } else {
@@ -24,8 +24,7 @@ function checkStorage(){
 
 window.onload = () => {
   checkStorage();
-}
-
+};
 document.querySelector('#name').addEventListener('keydown', formDataStorageObj);
 document.querySelector('#email').addEventListener('keydown', formDataStorageObj);
 document.querySelector('#message').addEventListener('keydown', formDataStorageObj);
