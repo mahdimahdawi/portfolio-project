@@ -405,11 +405,11 @@
                 <div class="input-field-box">
                     <form id="contact-form" action="https://formspree.io/f/xbjwvood" method="post">
                         <p class="alert"></p>
-                        <input class="input-field desktop-input" type="text" name="name" required
+                        <input class="input-field desktop-input" type="text" id="name" name="name" required
                             placeholder="Enter Your Name" maxlength="30">
                         <input class="input-field desktop-input" type="email" id="email" name="email" required
                             placeholder="Enter Your Email">
-                        <textarea name="message" class="write-message desktop-input" cols="29" rows="8"
+                        <textarea name="message" id="message" class="write-message desktop-input" cols="29" rows="8"
                             placeholder="Write Your message here" required maxlength="500"></textarea>
                         <div class="get-in-touch desktop-get-btn">
                             <button type="submit" name="submit" class="get-btn">Get in Touch</button>
@@ -483,6 +483,7 @@
     <script src="./js/myScript.js"></script>
     <script src="./js/modal.js"></script>
     <script src="./js/form-validation.js"></script>
+    <script src="./js/local-data-storage.js"></script>
 </body>
 
 </html>
